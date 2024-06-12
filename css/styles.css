@@ -1,0 +1,329 @@
+body {
+    /* color: #fbfbfb; */
+    font-family: 'Inter tight', sans-serif;
+    font-size: 14px;
+    line-height: 1.28;
+    font-weight: 500;
+
+  }
+  
+  ul,
+  ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .container {
+      padding: 0 100px;
+    }
+  }
+
+  header {
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+    margin: 20px 0px;
+    overflow: hidden;
+  }
+  
+  a {
+    font-style: normal;
+  }
+  
+  .containerr {
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .headd {
+    min-width: 320px;
+  }
+  
+  
+  .nav-head {
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+  }
+  
+  .logo-head {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .ic-logo-head,
+  .ic-logo-head-name,
+  .ic-head-menu {
+    color: #fbfbfb;
+  }
+  
+  .ic-logo-icon:hover,
+  .ic-logo-icon:focus {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .ic-logo-head-name:hover, .ic-logo-head-name:focus {
+    width: 168px;
+    height: 15px;
+  }
+  
+  .logo-name {
+    color: #fbfbfb;
+  }
+  
+  .ic-head-menu:hover,
+  .ic-head-menu:focus {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-but {
+    display: none;
+  }
+  
+  .nav-menu {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .nav-link {
+    border: 1px solid rgba(251, 251, 251, 0.5);  
+    border-radius: 12px;
+    padding: 12px;
+    width: 114px;
+    height: 44px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    background-color: rgba(117, 29, 29, 0.5);
+  }
+  
+  .nav-link:focus, .nav-link:hover {
+    color: #576f35;;
+    background-color: #fbfbfb;
+  }
+  
+  .button {
+    display: none;
+  }
+  
+  .btn-open-menu {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+  
+  .is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  
+  
+  .btn-menu-cl {
+    position: absolute;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    top: 28px;
+    right: 28px;
+    padding: 0;
+    cursor: pointer;
+    border: 0;
+  }
+  
+  .ic-open-menu:hover, .ic-open-menu:focus {
+    width: 40px; 
+    height: 40px;
+  }
+  
+  .nav-m {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .nav-m-d {
+    border: 1px solid rgba(251, 251, 251, 0.4);
+    border-radius: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: auto;
+    padding-right: auto;
+    width: 114px;
+    height: 42px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    background-color: transparent;
+  }
+  
+  .nav-m-d:focus, .nav-m-d:hover {
+    color: #7a3145;
+    background-color: #fbfbfb;
+  }
+  
+  .button-m {
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 16px 41px;
+    width: 155px;
+    height: 50px;
+    background: #fbfbfb;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #7a3145;
+    border: 0;
+  }
+  
+  .button-m:hover,
+  .button-m:focus {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    color: #fbfbfb;
+    background-color: transparent;
+  }
+  
+
+  
+  @media screen and (min-width: 1280px) {
+    .containerr {
+      min-width: 1280px;
+      padding-left: 100px;
+      margin: 0 auto;
+    }
+  
+    .nav-head {
+      justify-content: space-between;
+    }
+  
+    .nav-but {
+      display: flex;
+      gap: 8px;
+    }
+  
+    .logo-head {
+      margin-right: 397px;
+    }
+  
+    .ic-head-menu {
+      display: none;
+    }
+  
+    .nav-but {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .button {
+      display: flex;
+      align-items: center;
+      border-radius: 30px;
+      padding: 16px 32px;
+      width: 157px;
+      height: 52px;
+      background: #7a3145;
+      font-family: "Inter Tight", sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 111%;
+      letter-spacing: -0.01em;
+      text-transform: uppercase;
+      color: #fbfbfb;
+      border: none;
+      font-weight: normal;
+    }
+  
+    .button:focus, .button:hover {
+      background: #622133;
+      border: none;
+    }
+  
+    .button:active {
+      background: #fbfbfb;
+      color: #7a3145;
+    }
+  
+    .mob-menu {
+      display: none;
+    }
+  }
+  
+  .hero-container {
+    height: 1000px;
+    background-repeat: no-repeat;
+  }
+  
+  .hero-text {
+    color: #fbfbfb;
+    padding-top: 100px;
+    margin-bottom: 40px;
+  }
+  
+  .hero-title {
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+    max-width: 335px;
+  }
+  
+  .hero-description {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.28;
+    max-width: 335px;
+  }
+    .hero-container {
+      padding-left: 100px;
+      padding-right: 100px;
+      max-height: 1200px;
+      display: flex;
+      gap: 28px;
+      align-items: center;
+      background-repeat: no-repeat;
+      background-image: linear-gradient(
+          rgba(20, 20, 20, 0.2),
+          rgba(20, 20, 20, 0.2)
+        ),
+        url(../img/5-Best-Health-Care-Tips-To-Maintain-A-Healthy-Lifestyle.jpeg);
+      background-position: right;
+    }
+  
+
+
+
+

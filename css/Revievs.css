@@ -1,0 +1,756 @@
+section, .container {
+    background-color: #7a3145;
+}
+ul {
+    margin: 0;
+    padding: 0; 
+    list-style: none;
+}
+body {
+    font-family: Inter tight, sans-serif;
+}
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+  @media screen and (min-width: 768px) {
+    .form-link-block {
+      padding-left: 70px;
+      padding-right: 70px;
+    }
+  
+    .title-block-your-order {
+      padding-right: 96px;
+      padding-left: 32px;
+      margin-bottom: 50px;
+    }
+  
+    .title-your-order {
+      font-size: 64px;
+      line-height: 1;
+      max-width: 640px;
+      margin-bottom: 25px;
+    }
+  
+    .text-your-order {
+      font-size: 16px;
+      line-height: 1.25;
+      max-width: 640px;
+    }
+  
+    .form-your-order-block {
+      max-width: 628px;
+      padding: 50px 100px;
+      margin-bottom: 25px;
+    } 
+  
+    .comment-textarea-your-order {
+    }
+  
+    .form-subtitle-your-order {
+      margin-bottom: 50px;
+      max-width: 428px;
+    }
+  
+    .input-your-order {
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+  
+    .input-your-order::placeholder {
+      font-size: 16px;
+      line-height: 1.25;
+    }
+  
+    .block-input-your-order {
+      font-size: 16px;
+      line-height: 1.25;
+    }
+  
+    .comment-textarea-your-order {
+      font-size: 16px;
+      line-height: 1.25;
+    }
+  
+    .form-send-btn-your-order {
+      font-size: 18px;
+      line-height: 1.11;
+      margin-top: 25px;
+    }
+  
+    .link-block-your-order {
+      padding: 50px;
+      max-width: 628px;
+    }
+  
+    .your-order-picture {
+      margin-bottom: 50px;
+    }
+  
+    .text-link-block-your-order {
+      font-size: 18px;
+      line-height: 1.11;
+    }
+  
+    .list-link-your-order {
+      font-size: 32px;
+      line-height: 1;
+      gap: 12px;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .form-link-block {
+      display: flex;
+      flex-direction: row;
+      column-gap: 24px;
+    }
+  
+    .title-block-your-order {
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+  
+    .title-your-order {
+      max-width: 751px;
+    }
+  
+    .text-your-order {
+      max-width: 751px;
+    }
+    .form-link-block {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  
+    .form-your-order-block {
+      width: 100%;
+      padding: 50px;
+      margin-bottom: 0;
+    }
+  
+    .link-block-your-order {
+      width: 100%;
+      padding: 50px;
+      margin-bottom: 0;
+    }
+  }
+  body {
+    /* color: #fbfbfb; */
+    font-family: 'Inter tight', sans-serif;
+    font-size: 14px;
+    line-height: 1.28;
+    font-weight: 500;
+
+  }
+  
+  ul,
+  ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .container {
+      padding: 0 100px;
+    }
+  }
+
+  header {
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+    margin: 20px 0px;
+    overflow: hidden;
+  }
+  
+  a {
+    font-style: normal;
+  }
+  
+  .containerr {
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .headd {
+    min-width: 320px;
+  }
+  
+  
+  .nav-head {
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+  }
+  
+  .logo-head {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .ic-logo-head,
+  .ic-logo-head-name,
+  .ic-head-menu {
+    color: #fbfbfb;
+  }
+  
+  .ic-logo-icon:hover,
+  .ic-logo-icon:focus {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .ic-logo-head-name:hover, .ic-logo-head-name:focus {
+    width: 168px;
+    height: 15px;
+  }
+  
+  .logo-name {
+    color: #fbfbfb;
+  }
+  
+  .ic-head-menu:hover,
+  .ic-head-menu:focus {
+    width: 40px;
+    height: 40px;
+  }
+  .content-reviews
+  .nav-but {
+    display: none;
+  }
+  
+  .nav-menu {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .nav-link {
+    border: 1px solid rgba(251, 251, 251, 0.5);  
+    border-radius: 12px;
+    padding: 12px;
+    width: 114px;
+    height: 44px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    background-color: rgba(117, 29, 29, 0.5);
+  }
+  
+  .nav-link:focus, .nav-link:hover {
+    color: #576f35;;
+    background-color: #fbfbfb;
+  }
+  
+  .button {
+    display: none;
+  }
+  
+  .btn-open-menu {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+  
+  .is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  
+  
+  .btn-menu-cl {
+    position: absolute;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    top: 28px;
+    right: 28px;
+    padding: 0;
+    cursor: pointer;
+    border: 0;
+  }
+  
+  .ic-open-menu:hover, .ic-open-menu:focus {
+    width: 40px; 
+    height: 40px;
+  }
+  
+  .nav-m {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .nav-m-d {
+    border: 1px solid rgba(251, 251, 251, 0.4);
+    border-radius: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: auto;
+    padding-right: auto;
+    width: 114px;
+    height: 42px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    background-color: transparent;
+  }
+  
+  .nav-m-d:focus, .nav-m-d:hover {
+    color: #7a3145;
+    background-color: #fbfbfb;
+  }
+  
+  .button-m {
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 16px 41px;
+    width: 155px;
+    height: 50px;
+    background: #fbfbfb;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #7a3145;
+    border: 0;
+  }
+  
+  .button-m:hover,
+  .button-m:focus {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    color: #fbfbfb;
+    background-color: transparent;
+  }
+  
+
+  
+  @media screen and (min-width: 1280px) {
+    .containerr {
+      min-width: 1280px;
+      padding-left: 100px;
+      margin: 0 auto;
+    }
+  
+    .nav-head {
+      justify-content: space-between;
+    }
+  
+    .nav-but {
+      display: flex;
+      gap: 8px;
+    }
+  
+    .logo-head {
+      margin-right: 397px;
+    }
+  
+    .ic-head-menu {
+      display: none;
+    }
+  
+    .nav-but {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .button {
+      display: flex;
+      align-items: center;
+      border-radius: 30px;
+      padding: 16px 32px;
+      width: 157px;
+      height: 52px;
+      background: #30000b;
+      font-family: "Inter Tight", sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 111%;
+      letter-spacing: -0.01em;
+      text-transform: uppercase;
+      color: #fbfbfb;
+      border: none;
+      font-weight: normal;
+    }
+  
+    .button:focus, .button:hover {
+      background: #622133;
+      border: none;
+    }
+  
+    .button:active {
+      background: #fbfbfb;
+      color: #7a3145;
+    }
+  
+    .mob-menu {
+      display: none;
+    }
+  }
+  
+  .hero-container {
+    height: 1000px;
+    background-repeat: no-repeat;
+  }
+  
+  .hero-text {
+    color: #fbfbfb;
+    padding-top: 100px;
+    margin-bottom: 40px;
+  }
+  
+  .hero-title {
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+    max-width: 335px;
+  }
+  
+  .hero-description {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.28;
+    max-width: 335px;
+  }
+    .hero-container {
+      padding-left: 100px;
+      padding-right: 100px;
+      max-height: 1200px;
+      display: flex;
+      gap: 28px;
+      align-items: center;
+      background-repeat: no-repeat;
+      background-image: linear-gradient(
+          rgba(20, 20, 20, 0.2),
+          rgba(20, 20, 20, 0.2)
+        ),
+        url(../img/5-Best-Health-Care-Tips-To-Maintain-A-Healthy-Lifestyle.jpeg);
+      background-position: right;
+    }
+  /* -------- */
+  .container {
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+
+  .reviews-opinions {
+    padding: 80px 0;
+  }
+ 
+ 
+
+  .content-reviews {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    
+  }
+
+
+  .title-reviews {
+    margin-bottom: 20px;
+    color: #141414;
+    font-family: "Inter Tight";
+    font-size: 48px;
+    margin: 0 auto;
+    font-weight: 600;
+    line-height: 1.04;
+    letter-spacing: -0,72px;
+    text-transform: uppercase;
+  }
+
+
+  .title-diferent {
+    color: #576F35;
+  }
+
+
+  .opinions {
+    
+    margin: 20px auto 0 auto;
+    color: #141414;
+    font-family: "Inter Tight";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.28;
+  }
+
+
+  .list-reviews {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 16px;
+    flex-direction: column;
+    align-items: center;
+    
+    border-radius: 24px;
+    border: 1px solid rgba(122, 49, 69, 0.30);
+    background: #FBFBFB;
+  }
+
+
+  .client-list-reviews {
+    margin: 40px 0 0 0;
+  }
+
+
+  .imagines-list-reviews {
+    /*border-radius: 50%;*/
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: lightgray 50% / cover no-repeat, #E0E0E0;
+  }
+
+
+  .tittle-lista {
+    color: #040306;
+    text-align: center;
+    font-family: "Inter Tight";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.32px;
+    margin-top: 24px;
+  }
+
+
+  .parrafo-lista {
+    color: rgba(4, 3, 6, 0.40);
+    text-align: center;
+    font-family: "Inter Tight";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.28;
+    margin: 8px auto 0 auto;
+  }
+
+
+  
+  .victoria-romashenko {
+    display: none;
+  }
+
+
+  .ihor-trachuk {
+    display: none;
+  }
+
+
+
+
+  @media screen and (min-width:768px) {
+    .reviews-opinions {
+      
+      
+      padding: 100px 0;
+      
+      gap: 10px;
+
+    }
+
+
+    .container {
+      padding-left: 100px ;
+      width: 100%;
+      padding: 0 32px;
+    }
+
+   
+    .content-reviews {
+      
+      
+      gap: 0;
+
+    }
+
+
+    .title-reviews {
+      width: 553px;
+      margin: 0 0 25px 0;
+      font-size: 64px;
+      line-height: 1;
+      letter-spacing: -1,5%;
+    }
+    
+    .opinions {
+      width: 553px;
+      margin: 0 0 50px 0;
+      font-size: 16px;
+      line-height: 1.25;
+   
+    }
+
+    .client-list-reviews {
+      display:flex;
+      gap: 18px;
+      margin: 0;
+      
+      
+    }
+
+
+    .list-reviews {
+     
+      width: calc((100% - 18px) / 2);
+      
+    }
+   
+    .imagines-list-reviews {
+      background: var(--avatar-user-square-amanda-lowery-neutral-background, lightgray 50% / cover no-repeat, #E0E0E0);
+
+    }
+
+
+
+    .tittle-lista {
+      color: #141414;
+      font-size: 18px;
+      line-height: 1.1;
+      letter-spacing: -0.36px;
+    }
+
+
+    .parrafo-lista {
+      width: 288px;
+      color: rgba(20, 20, 20, 0.40);
+      font-size: 16px;
+      line-height: 1.4;
+    }
+
+
+    .victoria-romashenko {
+      display: flex;
+    }
+
+    .ihor-trachuk {
+      display: none;
+    }
+    
+
+  }
+
+
+
+
+
+  @media screen and (min-width:1280px) {
+    .reviews-opinions {
+      
+
+      padding: 100px 0;
+      
+      
+    }
+
+    .container {
+      width: 100%;
+      padding: 0 32px;
+    
+    }
+    
+
+
+    
+
+
+    .content-reviews {
+      
+     
+      margin: 0 auto;
+    }
+
+   
+    .title-reviews {
+      font-size: 64px;
+      letter-spacing: -0.96px;
+      margin: 0 0 25px 0;
+    }
+
+
+    .opinions {
+      margin: 0 0 50px 0;
+    }
+
+
+    .list-reviews {
+      display: flex;
+      align-items: flex-start;
+      gap: 0;
+      padding: 20px;
+      width: calc((100% - 50px) / 3);
+    }
+
+
+    
+
+
+    .john-wax {
+       display: flex;
+    }
+
+
+    .imagines-list-reviews {
+      margin: 0 auto;
+      background: var(--avatar-user-square-nicolas-trevino-neutral-background, lightgray 50% / cover no-repeat, #E0E0E0);
+    }
+
+
+    .tittle-lista {
+      margin: 24px auto 0 auto;
+      
+    }
+
+
+    .parrafo-lista {
+       text-align: center;
+       font-style: normal; 
+       font-weight: 500;
+       margin: 8px auto 0 auto;
+       
+       
+    }
+
+
+    .client-list-reviews {
+      margin: 0;
+      gap: 25px;
+      
+    }
+
+  }

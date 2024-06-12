@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenHarvest</title>
+    <link rel="stylesheet" href="./css/Registration.css">  
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla App Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+</head>
+<body>
+    
+    <section class="your-order-section">
+        <section class="head">  
+            <div class="headd containerr">
+              <nav class="nav-head">
+                <a class="logo-head" href="./index.html">
+                  <svg class="ic-logo-icon" width="16" height="16">
+                    <use href="./img/icons.svg#icon-logo-icon"></use>
+                  </svg>
+                  <!---<p class="logo-name">Green.Harvest</p>---->
+                  <svg class="ic-logo-head-name" width="148" height="12">
+                    <use href="./img/icons.svg#icon-GreenHarvest"></use>
+                  </svg>
+                </a>
+                <div class="nav-but">
+                  <ul class="nav-menu">
+                    <li><a class="nav-link" href="./home.html">Home</a></li>
+                    <li><a class="nav-link" href="./Balancediet.html">Balance Diet</a></li>
+                    <li><a class="nav-link" href="./Exercise.html">Exercise</a></li>
+                    <li><a class="nav-link" href="./Drugs.html">Drugs</a></li>
+                    <li><a class="nav-link" href="./Smoking.html">Smoking</a></li>  
+                    <li><a class="nav-link" href="./Alcahol.html">Alcohol</a></li>
+                    <li><a class="nav-link" href="./Revievs.html ">Revievs</a></li>
+                    <li><a class="nav-link" href="./Registration.html">Registration</a></li>
+                  </ul>
+                  <button class="button" type="button">About us</button>
+                </div>
+                <button type="button" class="btn-open-menu" data-modal-open>
+                  <svg class="ic-head-menu" width="32" height="32">
+                    <use href="./img/icons.svg#icon-menu-burger-small"></use>
+                  </svg>
+                </button>
+              </nav>
+            </div>
+        </section>
+        <div class="container your-order">
+          <div class="title-block-your-order">
+            <h2 class="title-your-order title-part">
+              Our <span>Harvest</span> Courses:how to get healthy?
+            </h2>
+            <p class="text-your-order">
+              Breaking bad habits is tough, but each small step brings you closer to a better you. 
+              Embrace your goal, visualize the positive changes, and forgive yourself fr any slips. 
+              Celebrate every win, seek support, and believe in your strength. You have what it takes 
+              to overcome obstacles and achieve the life you want. Stay strong and focused—you are worthy 
+              of a brighter future.
+            </p>
+          </div>
+          <div class="form-link-block">
+            <div class="form-your-order-block">
+              <h3 class="form-subtitle-your-order">
+                Ordering <span class="color-from-us">from us</span> is quick and easy!
+                Fill out <span class="color-the-form">the form</span> below and we
+                will contact you !
+              </h3>
+              <form class="form-your-order">
+                <div class="block-input-your-order">
+                  <input
+                    class="input-your-order"
+                    type="text"
+                    name="full-name"
+                    id="full-name"
+                    placeholder="Full Name"
+                  />
+                  <p class="text-valid">Succes!</p>
+                  <p class="text-invalid">Invalid email, try again</p>
+                </div>
+                <div class="block-input-your-order">
+                  <input
+                    class="input-your-order"
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                    required
+                    pattern="[A-z0-9_.-]{1,}@[A-z0-9_.-]{1,}\.[A-z]{2,8}"
+                  />
+                  <p class="text-valid">Succes!</p>
+                  <p class="text-invalid">Invalid email, try again</p>
+                </div>
+                <label class="user-text-your-order" for="user-text">
+                  <textarea
+                    name="user-text"
+                    id="user-text"
+                    class="comment-textarea-your-order"
+                    placeholder="Comment"
+                  ></textarea>
+                </label>
+                <button type="submit" class="form-send-btn-your-order">Send</button>
+              </form>
+            </div>
+            <div class="link-block-your-order">
+
+                <img
+                  class="your-order-picture"
+                  src="./img/mix-tab.png"
+                  alt="mix"
+
+                />
+              </picture>
+      
+              <p class="text-link-block-your-order">
+                Follow us on our social networks:
+              </p>
+              <ul class="list-link-your-order">
+                <li class="item-link-your-order">
+                  <a
+                    class="soc-link-your-order"
+                    href="https://www.instagram.com/goitclub/"
+                    target="_blank"
+                    >instagram</a
+                  >
+                </li>
+                <li class="soc-link-separator">/</li>
+                <li class="item-link-your-order">
+                  <a
+                    class="soc-link-your-order"
+                    href="https://www.facebook.com/goITclub/"
+                    target="_blank"
+                    >facebook</a
+                  >
+                </li>
+                <li class="soc-link-separator">/</li>
+                <li class="item-link-your-order">
+                  <a
+                    class="soc-link-your-order"
+                    href="https://www.youtube.com/c/GoIT"
+                    target="_blank"
+                    >youtube</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
